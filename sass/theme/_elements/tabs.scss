@@ -1,0 +1,46 @@
+.nav-tabs {
+	position: relative;
+	margin-bottom: 2.2em;
+	
+	&:after {
+		content: '';
+		position: absolute;
+		z-index: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		width: 100%;
+		height: 2px;
+		background-color: $gray;
+	}
+	
+	li {
+		a {
+			display: block;
+			position: relative;
+			color: $gray-text;
+			font-weight: bold;
+			text-transform: uppercase;
+			padding: .75em;
+			margin: 0 1.1em;
+			
+		&:after {
+			content: '';
+			position: absolute;
+			z-index: 1;
+			left: .75em;
+			right: .75em;
+			bottom: 0;
+			height: 6px;
+			background-color: transparent;
+		}
+			
+		&.active:after {
+			background-color: $primary;
+		}
+			
+		}
+	}
+	
+
+}

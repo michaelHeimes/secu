@@ -9,4 +9,16 @@
 // Any additional imported files //
 @import "theme/contact-form7";    // <-------- Contact Form 7 - Bootstrap 4 support
 
-@import "theme/elements/common";
+// Elements
+@import "theme/_elements/common";
+@import "theme/_elements/navbar";
+@import "theme/_elements/jumbotron";
+@import "theme/_elements/tabs";
+@import "theme/_elements/text-icons";
+@import "theme/_elements/img-text";
+@import "theme/_elements/recent-news-blogs";
+@import "theme/_elements/get-started-cta";
+@import "theme/_elements/footer";
+
+// Page Templates
+@import "theme/_pages/home";

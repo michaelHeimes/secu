@@ -1,0 +1,20 @@
+.get-started-cta {
+	margin-top: 7em;
+	margin-bottom: 2.8em;
+	padding-top: 2.7em;
+    padding-bottom: 1.6em;
+	
+	.row.direction {
+		@include media-breakpoint-up(md) {
+			flex-direction: row-reverse;
+		}
+	}
+	
+	.img-wrap {
+		img {
+			position: relative;
+			top: -75px;
+		}
+	}
+	
+}

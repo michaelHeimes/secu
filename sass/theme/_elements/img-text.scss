@@ -1,0 +1,47 @@
+.img-text {
+	
+	.img-wrap {
+		margin-bottom: 40px;
+		@include media-breakpoint-up(md) {
+			margin-bottom: 0;
+		}
+	}
+	
+&.img-right {
+	.row {
+		@include media-breakpoint-up(md) {
+			flex-direction: row-reverse;
+		}
+	}
+}
+
+&.pull-img-right {
+	.img-wrap {
+		img {
+			position: relative;
+			right: -5.25em;
+		}
+	}
+}
+
+&.pull-img-left {
+	.img-wrap {
+		img {
+			position: relative;
+			left: -5.25em;
+		}
+	}
+}
+
+	.text-wrap {
+		h2 {
+			margin-bottom: .45em;
+		}
+		
+		p {
+			margin-bottom: 3.1em;
+		}
+		
+	}
+	
+}

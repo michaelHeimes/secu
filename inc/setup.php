@@ -46,7 +46,9 @@ if ( ! function_exists( 'understrap_setup' ) ) {
 		// This theme uses wp_nav_menu() in one location.
 		register_nav_menus(
 			array(
-				'primary' => __( 'Primary Menu', 'understrap' ),
+				'header-top' => __( 'Header Top Menu', 'understrap' ),
+				'header-middle' => __( 'Header Middle Menu', 'understrap' ),
+				'header-bottom' => __( 'Header Bottom Menu', 'understrap' ),				
 			)
 		);
 

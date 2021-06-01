@@ -1,0 +1,130 @@
+.wrapper {
+	padding: 0;
+	overflow: hidden;
+}
+
+section {
+	padding-top: 4.1em;
+	padding-bottom: 4.1em;
+}
+
+.max-1240 {
+	max-width: 1240px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.break {
+	background-color: $gray;
+	height: 1px;
+}
+
+// Typography
+.large-text p {
+	font-size: 24px;
+}
+
+h3 {
+	color: $primary;
+}
+
+// Colors
+.primary-color{
+	color: $primary;
+}
+
+// Backround Colors
+.white-bg {
+	background-color: $white;	
+}
+
+.green-bg {
+	background-color: $primary;
+	color: $white;
+}
+
+.light-gray-bg {
+	background-color: $light-gray;	
+}
+
+// Box Shadow Cards
+.shadow-card {
+	padding: 50px;
+	margin-bottom: 30px;
+	box-shadow: 0px 4px 20px 0px rgba(0,0,0,0.1);
+}
+
+// Check Lists
+.check-list {
+	ul {
+		list-style: none;
+		padding-left: 1.9em;
+		
+		li {
+			position: relative;
+			padding-left: 1.9em;
+			
+		&:before {
+			content: '';
+		    display: block;
+		    width: 17px;
+		    height: 13px;
+		    background-image: url(../images/green-check.svg);
+		    position: absolute;
+		    top: 5px;
+		    left: 0;
+		    background-repeat: no-repeat;
+		    background-size: contain;
+		}
+			
+		}
+	}
+}
+
+
+// Buttons
+.navbar-expand-md .navbar-nav .nav-btn a.nav-link,
+.btn,
+.wpcf7 input[type=submit] {
+	display: inline-block;
+	text-align: center;
+    vertical-align: middle;
+    user-select: none;
+	min-width: 180px;
+	padding: .594rem 2.75rem;
+	font-weight: bold;
+	border-radius: 48px;
+	font-size: 1.125rem;
+	line-height: 1.44;
+	text-transform: uppercase;
+	border: 2px solid transparent;
+	transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+	
+&.btn-outline-primary,
+&.btn-outline-primary a {
+	color: $primary !important;	
+	background-color: transparent;
+}
+
+&.btn-outline-white,
+&.btn-outline-white a {
+	color: $white !important;	
+	border-color: $white;
+	background-color: transparent;
+}
+
+&.solid-blue {
+	background-color: $secondary;
+	color: $white;
+}
+		
+}
+
