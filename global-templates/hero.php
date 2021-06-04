@@ -5,7 +5,7 @@
 		
 				<h1>Banking For All That You Seek</h1>
 				<p>At SECU, we treat you as someone who deserves to feel secure in your decisions and your future.</p>
-				<p><a class="btn btn-outline-white btn-lg" href="#" role="button">Learn more</a></p>
+				<div class="btn-wrap"><a class="btn btn-outline-white btn-lg" href="#" role="button">Learn more</a></div>
 		
 			</div>
 		</div>

@@ -16,18 +16,22 @@ get_header();
 
 ?>
 
-<div class="jumbotron" style="background-image: url(<?php echo get_template_directory_uri(); ?>/images/home-banner.png)">
+<div class="jumbotron">
+	<div class="bg d-none d-sm-none d-md-block" style="background-image: url(<?php echo get_template_directory_uri(); ?>/images/home-banner.png)"></div>
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-12 col-md-6">
 		
 				<h1>Banking For All That You Seek</h1>
 				<p>At SECU, we treat you as someone who deserves to feel secure in your decisions and your future.</p>
-				<p><a class="btn btn-outline-white btn-lg" href="#" role="button">Learn more</a></p>
+				<div class="btn-wrap"><a class="btn btn-outline-white btn-lg" href="#" role="button">Learn more</a></div>
 		
 			</div>
 		</div>
 	</div>
+	
+	<img class="d-sm-block d-md-none" src="<?php echo get_template_directory_uri(); ?>/images/home-banner-mobile.png)">
+	
 </div>
 
 <div class="wrapper" id="full-width-page-wrapper">

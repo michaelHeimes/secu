@@ -1,8 +1,31 @@
 .home {
 	
+	.jumbotron {
+		padding: 2.15em 0 0;
+		background-color: $primary;
+		
+		@include media-breakpoint-up(md) {
+			padding: 6.15em 0 6.9em;
+		}
+		
+		h1 {
+			font-size: 4rem;
+			letter-spacing: -1px;
+			
+			@include media-breakpoint-up(md) {
+				font-size: 7.3rem;
+			}
+		}
+	}
+	
 	.s2 {
-		padding-top: 4.7em;
-		padding-bottom: 5em;
+		padding-top: 2.5em;
+		padding-bottom: 2.5em;
+		
+		@include media-breakpoint-up(md) {
+			padding-top: 4.7em;
+			padding-bottom: 5em;			
+		}
 		
 		.tab-content {
 			margin-bottom: 1.15em;
@@ -25,14 +48,15 @@
 						}
 					}	
 					.bottom {
-						padding-top: .5em;
+						padding-top: .2em;
 						
 						.rate {
+							font-family: $font-display;
 							font-size: 80px;
 							line-height: 1;
 							font-weight: bold;
 							color: $primary;
-							padding-bottom: .15em;
+							padding-bottom: .23em;
 							
 							span {
 								font-size: 50px
@@ -40,15 +64,16 @@
 							
 							sup {
 								position: relative;
-							    top: -40px;
-							    font-size: 24px;
+							    top: -38px;
+							    font-size: 26px;
 							    font-weight: 400;
-							    margin-left: 10px;
+							    margin-left: 12px;
 							}
 							
 						}
 						.link-wrap {
 							a {
+								font-weight: bold;
 								color: $secondary;
 							}
 						}
@@ -69,7 +94,11 @@
 	}
 	
 	.s4 {
-		padding-top: 6em;
+		padding-top: 2.6em;
+		
+		@include media-breakpoint-up(md) {
+			padding-top: 6em;
+		}
 		
 		h2 {
 			margin-bottom: 1.075em;
@@ -107,7 +136,10 @@
 			padding-bottom: 3em;
 		
 			h2 {
-				margin-bottom: .41em;
+				margin-bottom: .5em;
+				@include media-breakpoint-up(md) {
+					margin-bottom: .41em;
+				}
 			}
 		
 		}
@@ -131,7 +163,7 @@
 		
 		.text-wrap {
 			.single-card {
-				margin-bottom: .7em;
+				margin-bottom: .8em;
 				
 				h3 {
 					line-height: 1;

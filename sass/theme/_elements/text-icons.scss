@@ -1,6 +1,10 @@
 .text-icons {
-	padding-top: 4.6em;
+	padding-top: 2.6em;
 	padding-bottom: 2.55em;
+	
+	@include media-breakpoint-up(md) {
+		padding-top: 4.6em;
+	}
 	
 	h2 {
 		margin-bottom: .33em;

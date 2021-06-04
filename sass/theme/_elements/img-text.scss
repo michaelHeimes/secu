@@ -1,7 +1,7 @@
 .img-text {
 	
 	.img-wrap {
-		margin-bottom: 40px;
+		margin-bottom: 42px;
 		@include media-breakpoint-up(md) {
 			margin-bottom: 0;
 		}
@@ -18,8 +18,10 @@
 &.pull-img-right {
 	.img-wrap {
 		img {
-			position: relative;
-			right: -5.25em;
+			@include media-breakpoint-up(md) {
+				position: relative;
+				right: -5.25em;
+			}
 		}
 	}
 }
@@ -27,15 +29,20 @@
 &.pull-img-left {
 	.img-wrap {
 		img {
-			position: relative;
-			left: -5.25em;
+			@include media-breakpoint-up(md) {
+				position: relative;
+				left: -5.25em;
+			}
 		}
 	}
 }
 
 	.text-wrap {
 		h2 {
-			margin-bottom: .45em;
+			margin-bottom: .5em;
+			@include media-breakpoint-up(md) {
+				margin-bottom: .45em;
+			}
 		}
 		
 		p {

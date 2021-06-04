@@ -1,13 +1,30 @@
 .jumbotron {
-	padding: 6.15em 0 6.9em;
+	position: relative;
 	border-radius: 0;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
+	text-align: center;
 	
+	@include media-breakpoint-up(md) {
+		text-align: left;
+	}
+
 	h1 {
-		line-height: .833;
+		line-height: .955;
 		text-transform: uppercase;
+		font-family: $font-display;
+		margin-bottom: .3em;
+		
+		@include media-breakpoint-up(md) {
+			line-height: .833;
+			margin-bottom: .25em;
+		}
+		
+	}
+	
+	.btn-wrap {
+		padding-top: 2.15em;
 	}
 	
 }

@@ -1,26 +1,249 @@
 #wrapper-navbar {
 	
-	.navbar.navbar-light .navbar-nav {
-		
-	&#top-menu li a {
-		font-size: 0.875rem;
-		line-height: 1.71;
+	.nav-link {
+		color: $black;
 	}
+	
+	.navbar.navbar-light {
 		
-		.nav-btn {
-
-			&.primary a {
-				color: $white;
-			    background-color: $primary;
-			    border-color: $primary;
+		&.top-nav {
+			
+			> .container-fluid {
+				justify-content: flex-end;	
 			}
-			&.outline-primary a {
-				color: $primary;
-			    background-color: $white;
-			    border-color: $primary;
+			
+			#top-menu li a,
+			.routing {
+				font-size: 0.875rem;
+				line-height: 1.71;
 			}
+			
+			.routing {
+				color: $secondary;
+				font-weight: bold;
+			}
+			
 		}
 		
+		&.middle-nav {
+			
+			@include media-breakpoint-up(md) {
+				border-top: 1px solid $gray;
+				border-bottom: 1px solid $gray;
+			}
+			
+			> .container-fluid {
+				justify-content: space-between;
+			}
+		
+			.nav-btn {
+				&.outline-primary a {
+					color: $primary;
+				    background-color: $white;
+				    border-color: $primary;
+				}
+				&.primary a {
+					color: $white;
+				    background-color: $primary;
+				    border-color: $primary;
+				    margin-left: 20px;
+				}
+			}
+			
+			button.mobile-nav-toggle {
+				padding: 0;
+				border: 0;
+// 				background-color: transparent;
+				width: 36px;
+				height: 36px;
+				position: relative;
+				
+				span {
+					position: absolute;
+					display: block;
+					height: 4px;
+					width: 38px;
+					background-color: $primary;
+				}
+				
+				.open-wrap,
+				.close-wrap {
+					position: absolute;
+				    top: 0;
+				    left: 0;
+				    right: 0;
+				    bottom: 0;
+				    width: 100%;
+				    height: 100%;
+				    
+				    span {
+					    position: absolute;
+// 					    left: 50%;
+				    }
+				    
+				}
+				
+				.open-wrap {
+				
+					span {
+						transform: translateX(0);
+						transition: all .2s linear .21s; 
+						
+					&:nth-child(1) {
+						top: 6px;
+					}
+	
+					&:nth-child(2) {
+						top: 16px;
+					}
+					
+					&:nth-child(3) {
+						top: 26px;
+					}
+						
+					}
+					
+				}
+				
+				.close-wrap {
+				    
+				    span {
+						top: 16px;
+						width: 0;
+						transition: all .2s linear;
+					    
+					    &:nth-child(1) {
+						    transform: translateX(18px) rotate(45deg);
+					    }
+
+					    &:nth-child(2) {
+						    transform: translateX(18px) rotate(-45deg);
+					    }
+					    
+				    }
+				    				
+				}
+				
+			&[aria-expanded="true"] {
+				.open-wrap span {
+					width: 0;
+					transform: translateX(18px);
+					transition: all .2s linear;
+				}
+				
+				.close-wrap {
+					span {
+						width: 38px;
+						transition: all .2s linear .21s;
+					    
+					    &:nth-child(1) {
+						    transform: translateX(0%) rotate(45deg);
+					    }
+
+					    &:nth-child(2) {
+						    transform: translateX(0%) rotate(-45deg);
+					    }
+					    
+				    }
+				}
+				
+			}
+				
+			}
+		
+		}
+		
+		&.main-nav {
+			position: relative;
+			ul {
+				li {
+					a {
+						font-size: 1.125rem;
+						font-weight: bold;
+						line-height: 1.444;
+					}
+				}
+			}
+			
+		    .container {
+			    display: block;
+			}
+			
+			.mobile-nav {
+				position: fixed;
+			    z-index: 999;
+			    top: 92px;
+			    left: 0;
+			    right: 0;
+			    bottom: 0;
+			    width: 100%;
+			    height: 100%;
+			    background: #fff;
+			    
+			    .search-wrap {
+				    border-top: 1px solid $gray;
+					border-bottom: 1px solid $gray;
+			    
+				    .container {
+					    padding-top: 23px;
+					    padding-bottom: 24px;
+					
+						form {
+							border: 2px solid $gray;
+							border-radius: 48px;
+							width: 327px;
+							margin: auto;
+							overflow: hidden;
+							display: flex;
+							justify-content: space-between;
+							
+							input {
+								border: 0;
+								padding: 11px 0 11px 20px;
+							}
+							
+						}
+						
+					}
+					
+			    }
+			    
+			    #mobile-navigation {
+				    padding: 0.45em 0;
+				    
+				    ul {
+					    li {
+						    margin: 0.3em 0;
+						    
+						    a {
+							    font-size: 1rem;
+								display: flex;
+								justify-content: space-between;
+							    
+							&.dropdown-toggle:after {
+								border: 0;
+								content: url(../images/mobile-chevron.svg);
+							    display:block;
+							    width:12px;
+							    height:12px;
+							}
+							    
+						    }
+					    }
+					    
+					   &.dropdown-menu {
+						   border: 0;
+						   border-radius: 0;
+					   }
+					    
+				    }
+			    }
+			    
+			}
+			
+		}
+		
+/*
 		.nav-link {
 			color: $black;
 		}
@@ -28,14 +251,9 @@
 		.btn-primary a {
 			color: $white;
 		}
-		
+*/
+			
+	}
 
-					
-	}
-	
-	nav#middle-nav {
-		border-top: 1px solid $gray;
-		border-bottom: 1px solid $gray;
-	}
 	
 }

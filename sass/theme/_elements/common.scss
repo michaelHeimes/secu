@@ -4,14 +4,31 @@
 }
 
 section {
-	padding-top: 4.1em;
-	padding-bottom: 4.1em;
+	padding-top: 2.5em;
+	padding-bottom: 2.5em;
+	
+	@include media-breakpoint-up(md) {
+		padding-top: 4.1em;
+		padding-bottom: 4.1em;		
+	}
+	
 }
 
 .max-1240 {
 	max-width: 1240px;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+.bg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
 }
 
 .bold {
@@ -32,8 +49,41 @@ a:hover {
 	font-size: 24px;
 }
 
-h3 {
+h1 {
+	font-family: $font-display;
+	font-size: 3.75rem;
+	@include media-breakpoint-up(md) {
+		font-size: 6.25rem;
+	}
+}
+
+h2 {
+	font-size: 2.5rem;
+	
+	@include media-breakpoint-up(md) {
+		font-size: 3rem;
+	}
+	
+&.prod-hub {
+	font-size: 5rem;
 	color: $primary;
+	font-family: $font-display;
+}
+	
+}
+
+h3 {
+	font-size: 2rem;
+	color: $primary;
+	
+	@include media-breakpoint-up(md) {
+		font-size: 2.5rem;
+	}
+	
+}
+
+h4 {
+	font-size: 1.5rem;
 }
 
 // Colors
@@ -91,8 +141,15 @@ h3 {
 
 
 // Buttons
+button {
+	border: 0;
+	background-color: transparent;
+	color: $primary;
+}
+
 .navbar-expand-md .navbar-nav .nav-btn a.nav-link,
 .btn,
+.btn a,
 .wpcf7 input[type=submit] {
 	display: inline-block;
 	text-align: center;

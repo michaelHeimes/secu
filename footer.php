@@ -60,12 +60,12 @@ $container = get_theme_mod( 'understrap_container_type' );
 		<div class="middle max-1240">
 			<div class="container-fluid">
 				<div class="row">
-					<div class="col-sm-12 col-md-6 col-lg-4 mb-sm-5 mb-lg-0">
+					<div class="col-sm-12 col-md-6 col-lg-4">
 						<h6>Why SECU?</h6>
 						<p>SECU is Maryland’s largest credit union with 22 branches throughout Maryland and 10,000+ free ATMs. Plus, you’ll have full access to your accounts through mobile and online banking.</p>
 					</div>
 					
-					<div class="col-sm-12 col-md-6 col-lg-2 mb-5 mb-lg-0">
+					<div class="col-sm-12 col-md-6 col-lg-2">
 						<h6>About</h6>
 						<nav>
 							<ul class="list-unstyled">
@@ -77,7 +77,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 						</nav>
 					</div>
 
-					<div class="col-sm-12 col-md-6 col-lg-2 mb-5 mb-lg-0">
+					<div class="has-tb col-sm-12 col-md-6 col-lg-2">
 						<h6>Resources</h6>
 						<nav>
 							<ul class="list-unstyled">
@@ -89,7 +89,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 						</nav>						
 					</div>
 					
-					<div class="footer-contact col-sm-12 col-md-6 col-lg-2 mb-5 mb-lg-0">
+					<div class="has-tb footer-contact col-sm-12 col-md-6 col-lg-2 ">
 						<h6>Contact</h6>
 						<div>Customer Service</div>
 						<a class="big-green" href="tel:800-879-7328">800-879-7328</a>
@@ -97,7 +97,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 						<div class="big-green">255076753</div>
 					</div>
 					
-					<div class="mobile col-sm-12 col-md-6 col-lg-2 mb-5 mb-lg-0">
+					<div class="has-tb mobile col-sm-12 col-md-6 col-lg-2">
 						<h6>Mobile Banking</h6>
 						<div><a href="#" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/google-play.svg"></a></div>
 						<div><a href="#" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/app-store.svg"></a></div>
@@ -130,9 +130,12 @@ $container = get_theme_mod( 'understrap_container_type' );
 									SECU, PO Box 23896, Baltimore, MD 21298
 								</div>
 							</div>
-							<div class="row text-center">
-								<div class="col-sm-12">
-									&copy; <strong><?php $year = date("Y"); echo $year;?> SECU. All Rights Reserved. <a href="#">Privacy Policy</a> <a href="#">Terms of Service</a></strong>
+							<div class="row info-policy">
+								<div class="col-sm-12 col-md-6">
+									&copy; <strong><?php $year = date("Y"); echo $year;?> SECU. All Rights Reserved.</strong>
+								</div>
+								<div class="col-sm-12 col-md-6">
+									&copy; <strong><a href="#">Privacy Policy</a> <a href="#">Terms of Service</a></strong>
 								</div>
 							</div>
 							
