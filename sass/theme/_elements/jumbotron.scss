@@ -5,9 +5,50 @@
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
 	text-align: center;
+	padding: 0;
+	
+	@include media-breakpoint-up(md) {
+		padding: 3.5rem 0rem;
+	}
 	
 	@include media-breakpoint-up(md) {
 		text-align: left;
+	}
+	
+	.bg {
+		position: static;
+		height: 271px;
+		
+		@include media-breakpoint-up(md) {
+			position: absolute;
+			height: auto;
+		}	
+		
+	}
+	
+	.inner {
+		background-color: $primary;
+		position: relative;
+		padding-top: 1.1em;
+		padding-bottom: .45em;
+		
+		@include media-breakpoint-up(md) {
+			padding-top: 4.95em;
+			padding-bottom: 4em;			
+		}
+		
+	&:before {
+		@include media-breakpoint-up(md) {
+			content: '';
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			left: -50vw;
+			width: 50vw;
+			background-color: $primary;
+		}
+	}
+		
 	}
 
 	h1 {
@@ -19,6 +60,15 @@
 		@include media-breakpoint-up(md) {
 			line-height: .833;
 			margin-bottom: .25em;
+		}
+		
+		br {
+			display: none;
+			
+			@include media-breakpoint-up(md) {
+				display: block;
+			}
+			
 		}
 		
 	}

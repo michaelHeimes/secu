@@ -1,0 +1,47 @@
+.copy-twocols-img {
+	.heading-intro {
+		padding-bottom: 3em;
+	
+		h2 {
+			margin-bottom: .5em;
+			@include media-breakpoint-up(md) {
+				margin-bottom: .41em;
+			}
+		}
+	
+	}
+	
+	.row.direction {
+		@include media-breakpoint-up(md) {
+			flex-direction: row-reverse;
+		}
+	}
+	
+	.img-wrap {
+		margin-bottom: 40px;
+		img {
+			position: relative;
+			@include media-breakpoint-up(md) {
+				max-width: none;
+				width: 52vw;
+			}
+		}
+	}
+	
+	.text-wrap {
+		.single-card {
+			margin-bottom: .8em;
+			
+			h3 {
+				line-height: 1;
+				margin-bottom: 0.6em;
+			}
+			
+		}
+		
+		.link-wrap {
+			padding-top: 1.35em;
+		}
+		
+	}
+}

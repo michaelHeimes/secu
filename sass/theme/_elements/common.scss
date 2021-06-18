@@ -1,3 +1,14 @@
+html,
+body {
+	width: 100%;
+}
+
+body {
+	overflow-x: hidden;
+	  -webkit-font-smoothing: antialiased; /* Chrome, Safari */
+	  -moz-osx-font-smoothing: grayscale;
+}
+
 .wrapper {
 	padding: 0;
 	overflow: hidden;
@@ -39,19 +50,32 @@ a:hover {
 	text-decoration: none;
 }
 
+.underline {
+	text-decoration: underline;
+}
+
 .break {
 	background-color: $gray;
 	height: 1px;
 }
 
+// Custom Containers
+.levels-container {
+	max-width: 1218px;
+}
+	
 // Typography
 .large-text p {
 	font-size: 24px;
 }
 
-h1 {
+h1,
+.h1 {
 	font-family: $font-display;
+	text-transform: uppercase;
 	font-size: 3.75rem;
+	line-height: 1;
+	
 	@include media-breakpoint-up(md) {
 		font-size: 6.25rem;
 	}
@@ -73,11 +97,13 @@ h2 {
 }
 
 h3 {
-	font-size: 2rem;
+	font-size: 1.2rem;
 	color: $primary;
+	line-height: 1.333;
+	letter-spacing: -.3px;
 	
 	@include media-breakpoint-up(md) {
-		font-size: 2.5rem;
+		font-size: 1.5rem;
 	}
 	
 }
@@ -86,8 +112,29 @@ h4 {
 	font-size: 1.5rem;
 }
 
+.level-name {
+	h3 {
+		font-size: 48px;
+		line-height: 1;
+		font-family: $font-display;
+		text-transform: uppercase;
+	}
+}
+
+.body-copy {
+	h3 {
+		color: $black;
+	}
+}
+
+sup {
+	position: relative;
+    top: -1.1em;
+	font-size: .41em;
+}
+
 // Colors
-.primary-color{
+.primary-color {
 	color: $primary;
 }
 
@@ -106,10 +153,12 @@ h4 {
 }
 
 // Box Shadow Cards
+.shadow {
+	box-shadow: 0px 4px 20px 0px rgba(0,0,0,0.1);
+}
 .shadow-card {
 	padding: 50px;
 	margin-bottom: 30px;
-	box-shadow: 0px 4px 20px 0px rgba(0,0,0,0.1);
 }
 
 // Check Lists
@@ -121,6 +170,7 @@ h4 {
 		li {
 			position: relative;
 			padding-left: 1.9em;
+			margin-bottom: .6em;
 			
 		&:before {
 			content: '';
@@ -185,3 +235,32 @@ button {
 		
 }
 
+// Breadcrumbs
+.breadcrumb {
+	background-color: transparent;
+	margin: 0;
+	padding-top: 2.4rem;
+	border-radius: 0;	
+	
+	.breadcrumb-item {
+		
+		a {
+			font-weight: bold;
+		}
+		
+		&+.breadcrumb-item {
+			padding-left: .7rem;
+			
+			&:before {
+				content: url('../images/bc-divider.svg');
+				padding-right: .7rem;
+			}
+		}
+		
+		&.active {
+			color: $black;
+		}
+		
+	}
+	
+}

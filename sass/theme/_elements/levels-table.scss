@@ -1,0 +1,66 @@
+.levels-table {
+	margin-bottom: 3.75rem;
+	
+	.shadow {
+		overflow: scroll;
+	}
+	
+	table {
+		width: 100%;
+		
+		th,
+		td {
+			border: 2px solid $gray;
+		}
+		
+		th {
+			font-weight: 400;
+			padding: 25px 41px;
+		
+		&[scope="col"] {
+			font-family: $font-display;
+			font-size: 48px;
+			line-height: 1;
+			color: $primary;
+			text-transform: uppercase;
+			text-align: center;
+			border-top: 0;
+			border-bottom: 6px solid $blue;
+			padding: 41px 34px;
+			
+		&:last-child {
+			border-right: 0;
+		}
+			
+		}
+		
+		&[scope="row"] {
+			border-left: 0;
+								
+		}
+		
+		&.label-cell {
+			font-size: 24px;
+			font-weight: bold;
+			border-top: 0;
+			border-bottom: 6px solid $blue;
+			border-left: 0;
+		}
+		
+		}
+		
+		td {
+			text-align: center;
+			font-size: 24px;
+			font-weight: bold;
+			color: $primary;
+			width: 16.554%;
+			
+		&:last-child {
+			border-right: 0;
+		}
+			
+		}
+		
+	}
+}	

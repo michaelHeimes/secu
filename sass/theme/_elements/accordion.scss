@@ -1,0 +1,50 @@
+.accordion {
+	margin-bottom: 1.9rem;
+	
+	.card-body{
+		padding: 0;
+		padding-bottom: 1.85rem;					
+	}		
+
+	.card {
+		text-align: left;
+		background-color: transparent;
+		border: 0;
+		border-bottom: 2px solid $gray !important;
+		border-radius: 0;
+		
+		.card-header {
+			border: 0;
+			margin: 0;
+			background-color: transparent;
+			padding: 0;
+			
+			button {
+				border: 0;
+				font-size: 20px;
+				text-transform: none;
+				border-radius: 0;
+				position: relative;
+				padding: 2rem 21px 2rem 0;
+				display: flex;
+				justify-content: space-between;
+				
+			&:after {
+				content: url(../images/faq-chev.svg);
+				transition: transform .3s ease;
+			}
+			
+			&[aria-expanded="true"]:after {
+				transform: rotate(90deg);
+			}
+				
+			}
+			
+		}
+					
+	&:last-child {
+		border-bottom: 0 !important;
+	}
+		
+	}
+} 

@@ -44,7 +44,7 @@ get_header();
 
 				<main class="site-main" id="main" role="main">
 
-					<section class="s1 text-icons text-center">
+					<section class="text-icons text-center">
 						<div class="container">
 							<div class="row">
 								<div class="col-sm-12 col-md-10 offset-md-1 col-lg-8 offset-lg-2">
@@ -107,7 +107,7 @@ get_header();
 						</div>
 					</section>
 					
-					<section class="s2 light-gray-bg">
+					<section class="tabbed-cards light-gray-bg">
 						<div class="container">
 							<div class="row">
 								<div class="col-sm-12">
@@ -132,7 +132,7 @@ get_header();
 										<div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
 											<div class="row">
 												<div class="tab-card col-sm-12 col-md-6">
-													<div class="inner white-bg shadow-card">
+													<div class="inner white-bg shadow shadow-card">
 														<div class="top">
 															<div class="name">CD</div>
 															<div class="details">5 Year, $500 Minimum</div>
@@ -146,7 +146,7 @@ get_header();
 													</div>
 												</div>
 												<div class="tab-card col-sm-12 col-md-6">
-													<div class="inner white-bg shadow-card">
+													<div class="inner white-bg shadow shadow-card">
 														<div class="top">
 															<div class="name">Auto</div>
 															<div class="details">36 MONTH New Auto Purchase/Refinance</div>
@@ -180,7 +180,7 @@ get_header();
 					</section>	
 					
 
-					<section class="s3 img-text img-left pull-img-left">
+					<section class="img-text img-left pull-img-left">
 						<div class="container">
 							<div class="row align-items-center">
 								
@@ -201,7 +201,7 @@ get_header();
 					</section>			
 					
 					
-					<section class="s4">
+					<section class="heading-shadow-cards">
 						<div class="container">
 							<div class="row">
 								<div class="col-sm-12">
@@ -209,7 +209,7 @@ get_header();
 								</div>
 							
 								<div class="check-list col-sm-12 col-md-6">
-									<div class="shadow-card">
+									<div class="shadow shadow-card">
 										<div class="top">
 											<h3 class="primary-color">Drive-up Services</h3>
 											<p>Skip the wait and use our drive-up services, available via our Tellers and self-service ATMs!</p>
@@ -229,7 +229,7 @@ get_header();
 								</div>
 
 								<div class="check-list col-sm-12 col-md-6">
-									<div class="shadow-card">
+									<div class="shadow shadow-card">
 										<div class="top">
 											<h3>Drive-up Services</h3>
 											<p>Skip the wait and use our drive-up services, available via our Tellers and self-service ATMs!</p>
@@ -259,7 +259,7 @@ get_header();
 					</section>	
 					
 					
-					<section class="s5 light-gray-bg img-text img-right pull-img-right">
+					<section class="light-gray-bg img-text img-right pull-img-right">
 						<div class="container">
 							<div class="row align-items-center">
 
@@ -280,7 +280,7 @@ get_header();
 					</section>	
 					
 					
-					<section class="s6">
+					<section class="copy-twocols-img">
 						<div class="container">
 							<div class="direction row align-items-center">
 								

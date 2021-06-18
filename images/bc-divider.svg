@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="7px" height="12px" viewBox="0 0 7 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>bc-divider</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="bc-divider" transform="translate(0.000000, 0.757475)" fill="#75787B">
+            <path d="M1.70711,0.2928945 C1.31658,-0.0976315 0.68342,-0.0976315 0.29289,0.2928945 C-0.09763,0.6834145 -0.09763,1.3165845 0.29289,1.7071045 L3.82843,5.2426445 L0.29289,8.7781745 C-0.09763,9.1686945 -0.09763,9.8018245 0.29289,10.1924245 C0.68342,10.5829245 1.31658,10.5829245 1.70711,10.1924245 L5.9497,5.9497445 C6.3403,5.5592245 6.3403,4.9260545 5.9497,4.5355345 L1.70711,0.2928945 Z" id="Path"></path>
+        </g>
+    </g>
+</svg>
