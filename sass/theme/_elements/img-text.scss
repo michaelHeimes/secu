@@ -15,12 +15,23 @@
 	}
 }
 
+&.pull-img-left,
+&.pull-img-right {
+	.img-wrap img {
+		@include media-breakpoint-up(md) {
+			max-width: none;
+			width: 130%;
+    	}
+	}
+}
+
 &.pull-img-right {
 	.img-wrap {
 		img {
 			@include media-breakpoint-up(md) {
 				position: relative;
-				right: -5.25em;
+				right: -30%;
+				
 			}
 		}
 	}
@@ -31,7 +42,7 @@
 		img {
 			@include media-breakpoint-up(md) {
 				position: relative;
-				left: -5.25em;
+				left: -30%;
 			}
 		}
 	}
@@ -43,12 +54,7 @@
 			@include media-breakpoint-up(md) {
 				margin-bottom: .45em;
 			}
-		}
-		
-		a.btn {
-			margin-top: 1.75em;
-		}
-		
+		}		
 	}
 	
 }

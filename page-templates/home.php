@@ -44,18 +44,21 @@ get_header();
 
 				<main class="site-main" id="main" role="main">
 
-					<section class="text-icons text-center">
-						<div class="container">
-							<div class="row">
-								<div class="col-sm-12 col-md-10 offset-md-1 col-lg-8 offset-lg-2">
-									<h2>How can we help you today?</h2>
-									<p>We offer a full set of traditional financial services like checking, savings, credit cards, loans, insurance, and business banking. But unlike the big banks, our responsibility is to you, not the financial industry.</p>
-								</div>
+					<section class="centered-copy text-center">
+						<div class="row">
+							<div class="col-sm-12 col-md-10 offset-md-1 col-lg-8 offset-lg-2">
+								<h2>How can we help you today?</h2>
+								<p>We offer a full set of traditional financial services like checking, savings, credit cards, loans, insurance, and business banking. But unlike the big banks, our responsibility is to you, not the financial industry.</p>
 							</div>
+						</div>
+					</section>
+
+					<section class="icons-text six-cols text-center">
+						<div class="container">
 							
 							<div class="row">
 								<div class="col-sm-6 col-md-3 col-lg-2">
-									<div class="ti-card">
+									<div class="it-card">
 										<div class="icon-wrap">
 											<img src="<?php echo get_template_directory_uri(); ?>/images/home.svg">
 										</div>
@@ -63,7 +66,7 @@ get_header();
 									</div>
 								</div>
 								<div class="col-sm-6 col-md-3 col-lg-2">
-									<div class="ti-card">
+									<div class="it-card">
 										<div class="icon-wrap">
 											<img src="<?php echo get_template_directory_uri(); ?>/images/credit.svg">
 										</div>
@@ -71,7 +74,7 @@ get_header();
 									</div>
 								</div>
 								<div class="col-sm-6 col-md-3 col-lg-2">
-									<div class="ti-card">
+									<div class="it-card">
 										<div class="icon-wrap">
 											<img src="<?php echo get_template_directory_uri(); ?>/images/car.svg">
 										</div>
@@ -79,7 +82,7 @@ get_header();
 									</div>
 								</div>
 								<div class="col-sm-6 col-md-3 col-lg-2">
-									<div class="ti-card">									
+									<div class="it-card">									
 										<div class="icon-wrap">
 											<img src="<?php echo get_template_directory_uri(); ?>/images/coins.svg">
 										</div>
@@ -87,7 +90,7 @@ get_header();
 									</div>
 								</div>
 								<div class="col-sm-6 col-md-3 col-lg-2">
-									<div class="ti-card">
+									<div class="it-card">
 										<div class="icon-wrap">
 											<img src="<?php echo get_template_directory_uri(); ?>/images/piggy-bank.svg">
 										</div>
@@ -95,7 +98,7 @@ get_header();
 									</div>
 								</div>
 								<div class="col-sm-6 col-md-3 col-lg-2">
-									<div class="ti-card">
+									<div class="it-card">
 										<div class="icon-wrap">
 											<img src="<?php echo get_template_directory_uri(); ?>/images/pie-chart.svg">
 										</div>
@@ -140,7 +143,7 @@ get_header();
 														<div class="bottom">
 															<div class="rate">0.70<span>%</span> APY<sup>1</sup></div>
 															<div class="link-wrap">
-																<a href="#">View More CD Rates</a>
+																<a class="blue-link" href="#">View More CD Rates</a>
 															</div>
 														</div>
 													</div>
@@ -154,7 +157,7 @@ get_header();
 														<div class="bottom">
 															<div class="rate">2.49<span>%</span> APR<sup>2</sup></div>
 															<div class="link-wrap">
-																<a href="#">View More Auto Rates</a>
+																<a class="blue-link" href="#">View More Auto Rates</a>
 															</div>
 														</div>
 													</div>
@@ -192,7 +195,9 @@ get_header();
 									<h2>Visit the SECU<br>Virtual Financial Center</h2>
 									<p>We love seeing you at your local SECU Financial Center, but did you know many of your basic services can be done safely from your home?</p>
 									
-									<a class="btn solid-blue" href="#">Visit The Center</a>
+									<div class="btn-wrap">
+										<a class="btn solid-blue" href="#">Visit The Center</a>
+									</div>
 									
 								</div>
 								
@@ -200,14 +205,20 @@ get_header();
 						</div>
 					</section>			
 					
-					
-					<section class="heading-shadow-cards">
+					<section class="centered-copy">
 						<div class="container">
-							<div class="row">
-								<div class="col-sm-12">
+							<div class="row">	
+								<div class="col-sm-12 col-md-10 offset-md-1 col-lg-8 offset-lg-2 text-center">				
 									<h2 class="text-center">Member Resources</h2>
 								</div>
-							
+							</div>
+						</div>
+					</section>
+					
+					<section class="shadow-cards">
+						<div class="container">
+							<div class="row">
+
 								<div class="check-list col-sm-12 col-md-6">
 									<div class="shadow shadow-card">
 										<div class="top">
@@ -271,7 +282,9 @@ get_header();
 									<h2>Visit the SECU<br>Virtual Financial Center</h2>
 									<p>We love seeing you at your local SECU Financial Center, but did you know many of your basic services can be done safely from your home?</p>
 									
-									<a class="btn solid-blue" href="#">Visit The Center</a>
+									<div class="btn-wrap">
+										<a class="btn solid-blue" href="#">Visit The Center</a>
+									</div>
 									
 								</div>
 								
@@ -313,7 +326,7 @@ get_header();
 										</div>										
 									</div>
 
-									<div class="link-wrap">
+									<div class="btn-wrap">
 										<a class="btn solid-blue" href="#">View More Perks</a>
 									</div>
 									
@@ -324,7 +337,7 @@ get_header();
 					</section>
 							
 							
-					<section class="s7 recent-news-blogs light-gray-bg">
+					<section class="recent-news-blogs light-gray-bg">
 						<div class="container">
 							<div class="row">
 								<div class="col-sm-12">
@@ -353,7 +366,7 @@ get_header();
 									</a>
 								</div>		
 								
-								<div class="btn-wrap col-sm-12 text-center">
+								<div class="col-sm-12 text-center">
 									<a class="btn solid-blue" href="#">View More</a>
 								</div>
 								

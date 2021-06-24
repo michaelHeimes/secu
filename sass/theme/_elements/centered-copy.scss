@@ -1,4 +1,11 @@
 .centered-copy {
+	padding-bottom: 1.6rem;
+	
+	h2 {
+		font-size: 2.5rem;
+		margin-bottom: .7em;
+	}
+	
 	a:not(.btn) {
 		font-weight: bold;
 		text-decoration: underline;

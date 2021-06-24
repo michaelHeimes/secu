@@ -17,7 +17,7 @@ get_header();
 ?>
 
 <div class="jumbotron">
-	<div class="bg" style="background-image: url(<?php echo get_template_directory_uri(); ?>/images/personal-banking-banner.jpg)"></div>
+	<div class="bg" style="background-image: url(<?php echo get_template_directory_uri(); ?>/images/tcr-banner.jpg)"></div>
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-12 col-md-6">
@@ -49,7 +49,7 @@ get_header();
 						</nav>
 					</div>
 					
-					<section class="s1 white-bg product-img-text img-text img-right pull-img-right">
+					<section class="s1 white-bg product-img-text img-text img-right">
 						<div class="container">
 							<div class="row align-items-center">
 								
@@ -76,17 +76,20 @@ get_header();
 						</div>
 					</section>	
 												
-							
-					<section class="centered-copy light-gray-bg">
+
+					<section class="light-gray-bg centered-copy">
 						<div class="container">
 							<div class="row">
-								<div class="col-sm-12 col-md-10 offset-md-1 col-lg-8 offset-lg-2 text-center">
+								<div class="centered-copy col-sm-12 col-md-10 offset-md-1 col-lg-8 offset-lg-2 text-center">
 									<h2 class="text-center">Checking that grows with you.</h2>
 									<p>As you grow, so do your financial wellness needs.</p>
 									<p>That's why SECU Total™ Checking had four different Rewards Levels that reward you based on your account activity and participation–no matter where you are in life. Learn more about each level below and <a href="#">visit or rates page</a> to view our current rates.</p>
 								</div>
 							</div>
 						</div>
+					</section>
+							
+					<section class="light-gray-bg levels-graphic-table">
 						
 						<div class="container-fluid levels-container">
 							<div class="row">
@@ -95,56 +98,56 @@ get_header();
 										<div class="inner flex">
 											
 											<div class="single-level text-center">
-													<div class="coins-wrap">
-														<img src="<?php echo get_template_directory_uri(); ?>/images/one-coin.svg">
-													</div>
-													<div class="level-name">
-														<h3>Bronze</h3>
-														<img class="lev-chev right" src="<?php echo get_template_directory_uri(); ?>/images/lev-chev.svg">
-													</div>
-													<p>Everyone starts here</p>
-													<p>$25 minimum deposit to open your account</p>
-													<img class="lev-chev down" src="<?php echo get_template_directory_uri(); ?>/images/lev-chev.svg">
+												<div class="coins-wrap">
+													<img src="<?php echo get_template_directory_uri(); ?>/images/one-coin.svg">
+												</div>
+												<div class="level-name">
+													<h3>Bronze</h3>
+													<img class="lev-chev right" src="<?php echo get_template_directory_uri(); ?>/images/lev-chev.svg">
+												</div>
+												<p>Everyone starts here</p>
+												<p>$25 minimum deposit to open your account</p>
+												<img class="lev-chev down" src="<?php echo get_template_directory_uri(); ?>/images/lev-chev.svg">
 											</div>
 		
 											<div class="single-level text-center">
-													<div class="coins-wrap">
-														<img src="<?php echo get_template_directory_uri(); ?>/images/two-coins.svg">
-													</div>
-													<div class="level-name">
-														<h3>Silver</h3>
-														<img class="lev-chev right" src="<?php echo get_template_directory_uri(); ?>/images/lev-chev.svg">
-													</div>
-													<p>10,000+ combined deposit/loan balance</p>
-													<div class="or-wrap">OR</div>
-													<p>$3500+ deposit into a checking account</p>
-													<img class="lev-chev down" src="<?php echo get_template_directory_uri(); ?>/images/lev-chev.svg">
+												<div class="coins-wrap">
+													<img src="<?php echo get_template_directory_uri(); ?>/images/two-coins.svg">
+												</div>
+												<div class="level-name">
+													<h3>Silver</h3>
+													<img class="lev-chev right" src="<?php echo get_template_directory_uri(); ?>/images/lev-chev.svg">
+												</div>
+												<p>10,000+ combined deposit/loan balance</p>
+												<div class="or-wrap">OR</div>
+												<p>$3500+ deposit into a checking account</p>
+												<img class="lev-chev down" src="<?php echo get_template_directory_uri(); ?>/images/lev-chev.svg">
 											</div>
 		
 											<div class="single-level text-center">
-													<div class="coins-wrap">
-														<img src="<?php echo get_template_directory_uri(); ?>/images/three-coins.svg">
-													</div>
-													<div class="level-name">
-														<h3>Gold</h3>
-														<img class="lev-chev right" src="<?php echo get_template_directory_uri(); ?>/images/lev-chev.svg">
-													</div>
-													<p>$50,000+ combined deposit/loan balance</p>
-													<div class="or-wrap">OR</div>
-													<p>$10,000+ deposit into a checking account</p>
-													<img class="lev-chev down" src="<?php echo get_template_directory_uri(); ?>/images/lev-chev.svg">
+												<div class="coins-wrap">
+													<img src="<?php echo get_template_directory_uri(); ?>/images/three-coins.svg">
+												</div>
+												<div class="level-name">
+													<h3>Gold</h3>
+													<img class="lev-chev right" src="<?php echo get_template_directory_uri(); ?>/images/lev-chev.svg">
+												</div>
+												<p>$50,000+ combined deposit/loan balance</p>
+												<div class="or-wrap">OR</div>
+												<p>$10,000+ deposit into a checking account</p>
+												<img class="lev-chev down" src="<?php echo get_template_directory_uri(); ?>/images/lev-chev.svg">
 											</div>
 	
 											<div class="single-level text-center">
-													<div class="coins-wrap">
-														<img src="<?php echo get_template_directory_uri(); ?>/images/four-coins.svg">
-													</div>
-													<div class="level-name">
-														<h3>Platinum</h3>
-													</div>
-													<p>$100,000+ combined deposit/loan balance</p>
-													<div class="or-wrap">OR</div>
-													<p>$25,000+ deposit into a checking account</p>
+												<div class="coins-wrap">
+													<img src="<?php echo get_template_directory_uri(); ?>/images/four-coins.svg">
+												</div>
+												<div class="level-name">
+													<h3>Platinum</h3>
+												</div>
+												<p>$100,000+ combined deposit/loan balance</p>
+												<div class="or-wrap">OR</div>
+												<p>$25,000+ deposit into a checking account</p>
 											</div>
 											
 											<div class="detail">
@@ -243,7 +246,7 @@ get_header();
 					</section>
 					
 					
-					<section class="s3 faq white-bg">
+					<section class="faq white-bg">
 						<div class="container-fluid">
 							<div class="row">
 								<div class="col-sm-12 col-md-10 offset-md-1 col-lg-8 offset-lg-2 text-center">
@@ -303,7 +306,7 @@ get_header();
 									
 								</div>
 								
-								<div class="btn-wrap col-sm-12 text-center">
+								<div class="col-sm-12 text-center">
 									<a class="btn solid solid-blue" href="#">View All FAQS</a>
 								</div>
 								
@@ -312,7 +315,7 @@ get_header();
 					</section>
 					
 					
-					<section class="s4 body-copy white-bg">
+					<section class="body-copy white-bg">
 						<div class="container">
 							<div class="row">
 								<div class="col-sm-12 col-lg-6">
@@ -340,7 +343,7 @@ get_header();
 						</div>
 					</section>
 					
-					<section class="s5 light-gray-bg img-text img-right pull-img-right">
+					<section class="light-gray-bg img-text img-right pull-img-right">
 						<div class="container">
 							<div class="row align-items-center">
 
@@ -352,7 +355,9 @@ get_header();
 									<h2>What You Need to Know to Pick a New Checking Account</h2>
 									<p>Does your checking account still match your lifestyle?<br>Here's how to find out.</p>
 									
-									<a class="btn solid-blue" href="#">Read More</a>
+									<div class="btn-wrap">
+										<a class="btn solid-blue" href="#">Read More</a>
+									</div>
 									
 								</div>
 								

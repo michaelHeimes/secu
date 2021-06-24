@@ -1,11 +1,75 @@
 .product-img-text {
 	padding-top: 2.35em;
 	
-	ul.check-list {
+	h2 {
+		font-size: 5.1rem;
+		line-height: 1;
+		margin-bottom: .5em;
+	}
+	
+	.check-list {
 		padding-top: .9em;
 		
 		li {
-			margin-bottom: 1.5em;
+			margin-bottom: 1.6em;
+		}
+		
+	}
+	
+	.sidebar-wrap {
+		text-align: right;
+		
+		.sidebar {
+			max-width: 256px;
+			display: inline-block;
+			text-align: left;
+			
+			@include media-breakpoint-up(md) {
+				margin-top: -3rem;
+			}
+			
+			.text-wrap {
+				padding: 1.25rem 1.25rem .2rem;
+			}
+			
+			.link-wrap {
+				padding-top: .25rem;
+				padding-bottom: 3.55rem;
+			}
+			
+		&.testimonial {
+			.prompt {
+				padding: 1.25rem 1.25rem 2.57rem;
+				background-color: $primary;
+				
+				h3 {
+					color: $white;
+				}
+				
+			}
+			
+			.prompt-shape-wrap {
+				display: flex;
+				justify-content: flex-end;
+    
+				.prompt-shape {
+					margin-right: 2rem;
+					background-color: $primary;
+					width: 46px;
+					height: 32px;
+					clip-path: polygon(26% 0, 0% 100%, 100% 0);
+				}
+			}
+			
+			.author-wrap {
+				div {
+					color: $primary;
+					font-weight: bold;
+				}
+			}
+			
+		}
+			
 		}
 		
 	}

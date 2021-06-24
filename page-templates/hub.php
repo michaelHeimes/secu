@@ -38,8 +38,8 @@ get_header();
 			<div class="col-md-12 content-area" id="primary">
 
 				<main class="site-main" id="main" role="main">
-
-					<section class="s1 text-icons text-center">
+					
+					<section class="centered-copy text-center">
 						<div class="container">
 							<div class="row">
 								<div class="col-sm-12 col-md-10 offset-md-1 col-lg-8 offset-lg-2">
@@ -47,10 +47,15 @@ get_header();
 									<p>We offer a full set of traditional financial services like checking, savings, credit cards, loans, insurance, and business banking. But unlike the big banks, our responsibility is to you, not the financial industry.</p>
 								</div>
 							</div>
+						</div>
+					</section>
+
+					<section class="icons-text six-cols text-center">
+						<div class="container">
 							
 							<div class="row">
 								<div class="col-sm-6 col-md-3 col-lg-2">
-									<div class="ti-card">
+									<div class="it-card">
 										<div class="icon-wrap">
 											<img src="<?php echo get_template_directory_uri(); ?>/images/checking.svg">
 										</div>
@@ -58,7 +63,7 @@ get_header();
 									</div>
 								</div>
 								<div class="col-sm-6 col-md-3 col-lg-2">
-									<div class="ti-card">
+									<div class="it-card">
 										<div class="icon-wrap">
 											<img src="<?php echo get_template_directory_uri(); ?>/images/piggy-bank.svg">
 										</div>
@@ -66,7 +71,7 @@ get_header();
 									</div>
 								</div>
 								<div class="col-sm-6 col-md-3 col-lg-2">
-									<div class="ti-card">
+									<div class="it-card">
 										<div class="icon-wrap">
 											<img src="<?php echo get_template_directory_uri(); ?>/images/pie-chart.svg">
 										</div>
@@ -74,7 +79,7 @@ get_header();
 									</div>
 								</div>
 								<div class="col-sm-6 col-md-3 col-lg-2">
-									<div class="ti-card">									
+									<div class="it-card">									
 										<div class="icon-wrap">
 											<img src="<?php echo get_template_directory_uri(); ?>/images/credit.svg">
 										</div>
@@ -82,7 +87,7 @@ get_header();
 									</div>
 								</div>
 								<div class="col-sm-6 col-md-3 col-lg-2">
-									<div class="ti-card">
+									<div class="it-card">
 										<div class="icon-wrap">
 											<img src="<?php echo get_template_directory_uri(); ?>/images/home.svg">
 										</div>
@@ -90,7 +95,7 @@ get_header();
 									</div>
 								</div>
 								<div class="col-sm-6 col-md-3 col-lg-2">
-									<div class="ti-card">
+									<div class="it-card">
 										<div class="icon-wrap">
 											<img src="<?php echo get_template_directory_uri(); ?>/images/umbrella-icon.svg">
 										</div>
@@ -122,8 +127,10 @@ get_header();
 											<li>And much more...</li>
 										</ul>
 									</div>
-										
-									<a class="btn solid-blue" href="#">Visit The Center</a>
+									
+									<div class="btn-wrap">
+										<a class="btn solid-blue" href="#">Visit The Center</a>
+									</div>
 									
 								</div>
 								
@@ -153,7 +160,9 @@ get_header();
 										</ul>
 									</div>
 										
-									<a class="btn solid-blue" href="#">Visit The Center</a>
+									<div class="btn-wrap">
+										<a class="btn solid-blue" href="#">Visit The Center</a>
+									</div>
 									
 								</div>
 								
@@ -190,7 +199,7 @@ get_header();
 									</a>
 								</div>		
 								
-								<div class="btn-wrap col-sm-12 text-center">
+								<div class="col-sm-12 text-center">
 									<a class="btn solid-blue" href="#">View More</a>
 								</div>
 								
