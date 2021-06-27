@@ -81,13 +81,11 @@ get_header();
 									<h2 class="display">Save More. Do More.</h2>
 									<p>With SECU’s Money Market accounts, you can grow your savings and have the flexibility to take that road trip, hike that trail, cruise that river, or go to that happy place whenever you want.</p>
 									
-									<div class="check-list">										
-										<ul>
-											<li>Deposit, transfer, and withdraw funds anytime without penalty</li>
-											<li>Minimum $2,000 deposit</li>
-											<li>Watch your savings grow faster</li>
-										</ul>
-									</div>
+									<ul>
+										<li>Deposit, transfer, and withdraw funds anytime without penalty</li>
+										<li>Minimum $2,000 deposit</li>
+										<li>Watch your savings grow faster</li>
+									</ul>
 												
 									<p>Open an account today and start building your savings for your next adventure.</p>
 									<p>It only takes 10 minutes.</p>

@@ -110,29 +110,38 @@ get_header();
 						</div>
 					</section>
 					
+					<section class="centered-copy light-gray-bg">
+						<div class="container">
+							<div class="row">	
+								<div class="col-sm-12 col-md-10 offset-md-1 col-lg-8 offset-lg-2 text-center">				
+									<h2 class="text-center">Our Rates</h2>
+								</div>
+							</div>
+						</div>
+					</section>
+					
 					<section class="tabbed-cards light-gray-bg">
 						<div class="container">
 							<div class="row">
 								<div class="col-sm-12">
-									<h2 class="text-center">Our Rates</h2>
 									
 									<ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
 										<li class="nav-item">
-											<a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Featured</a>
+											<a class="nav-link active" id="featured-tab" data-toggle="tab" href="#featured" role="tab" aria-controls="home" aria-selected="true">Featured</a>
 										</li>
 										<li class="nav-item">
-											<a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Home</a>
+											<a class="nav-link" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="profile" aria-selected="false">Home</a>
 										</li>
 										<li class="nav-item">
-											<a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Auto</a>
+											<a class="nav-link" id="auto-tab" data-toggle="tab" href="#auto" role="tab" aria-controls="contact" aria-selected="false">Auto</a>
 										</li>
 										<li class="nav-item">
-											<a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Savings</a>
+											<a class="nav-link" id="savings-tab" data-toggle="tab" href="#savings" role="tab" aria-controls="contact" aria-selected="false">Savings</a>
 										</li>
 									</ul>
 									
 									<div class="tab-content" id="myTabContent">
-										<div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+										<div class="tab-pane fade show active" id="featured" role="tabpanel" aria-labelledby="home-tab">
 											<div class="row">
 												<div class="tab-card col-sm-12 col-md-6">
 													<div class="inner white-bg shadow shadow-card">
@@ -164,11 +173,14 @@ get_header();
 												</div>
 											</div>
 										</div>
-										<div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-											Tab Content
+										<div class="tab-pane fade" id="home" role="tabpanel" aria-labelledby="profile-tab">
+											Home Tab Content
 										</div>
-										<div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
-											Tab Content
+										<div class="tab-pane fade" id="auto" role="tabpanel" aria-labelledby="contact-tab">
+											Auto Tab Content
+										</div>
+										<div class="tab-pane fade" id="savings" role="tabpanel" aria-labelledby="savings-tab">
+											Savings Tab Content
 										</div>
 									</div>
 									
@@ -219,7 +231,7 @@ get_header();
 						<div class="container">
 							<div class="row">
 
-								<div class="check-list col-sm-12 col-md-6">
+								<div class="col-sm-12 col-md-6">
 									<div class="shadow shadow-card">
 										<div class="top">
 											<h3 class="primary-color">Drive-up Services</h3>
@@ -239,7 +251,7 @@ get_header();
 									</div>
 								</div>
 
-								<div class="check-list col-sm-12 col-md-6">
+								<div class="col-sm-12 col-md-6">
 									<div class="shadow shadow-card">
 										<div class="top">
 											<h3>Drive-up Services</h3>

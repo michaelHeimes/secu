@@ -17,8 +17,8 @@
 			height: 100px;
 			display: flex;
 			justify-content: center;
-			align-items: center;
-			margin-bottom: 1.4em;
+			align-items: flex-end;
+			margin-bottom: 1.4rem;
 		}
 		
 		.label {
@@ -29,6 +29,16 @@
 			letter-spacing: .11px;
 		}
 		
+		p {
+			margin-bottom: 1.25em;
+		}
+		
 	}
+
+&.contact-404 {
+	.it-card .label {
+		padding-bottom: .6rem;
+	}
+}
 	
 }

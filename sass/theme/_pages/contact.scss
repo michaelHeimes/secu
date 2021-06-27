@@ -1,0 +1,22 @@
+.page-template-contact {
+	
+	.img-text {
+		>.container {
+			padding-top: 30px;
+			padding-bottom: 30px;
+			position: relative;
+			
+		&:before {
+			content: '';
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			left: -50px;
+			right: -50px;
+			background-color: #F4F4F3;
+		}
+			
+		}
+	}
+	
+}

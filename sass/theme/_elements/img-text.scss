@@ -29,9 +29,7 @@
 	.img-wrap {
 		img {
 			@include media-breakpoint-up(md) {
-				position: relative;
-				right: -30%;
-				
+				position: relative;				
 			}
 		}
 	}

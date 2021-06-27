@@ -43,7 +43,7 @@ get_header();
 						<nav aria-label="breadcrumb">
 							<ol class="breadcrumb">
 								<li class="breadcrumb-item"><a href="#">Personal</a></li>
-								<li class="breadcrumb-item"><a href="#">Savings</a></li>
+								<li class="breadcrumb-item">Savings</li>
 							</ol>
 						</nav>
 					</div>
@@ -73,14 +73,12 @@ get_header();
 									<h2 class="display">Reach Your Savings<br>Goals Faster</h2>
 									<p>A SECU savings account is a great way to reach your savings goals while enjoying the benefits of SECU membership.</p>
 									
-									<div class="check-list">										
-										<ul>
-											<li>Online and Mobile banking</li>
-											<li>Digital wallet (Apple Pay, Google Pay, etc.)</li>
-											<li>A comprehensive rewards program</li>
-										</ul>
-									</div>
-												
+									<ul>
+										<li>Online and Mobile banking</li>
+										<li>Digital wallet (Apple Pay, Google Pay, etc.)</li>
+										<li>A comprehensive rewards program</li>
+									</ul>
+											
 									<p>Open an account today and start building your suite of banking tools.</p>
 									<p>It only takes 10 minutes.</p>
 									

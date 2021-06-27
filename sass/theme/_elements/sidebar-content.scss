@@ -1,0 +1,32 @@
+.sidebar-content {
+	
+	.has-sidebar {
+		
+		h2 {
+			font-size: 2rem;
+			line-height: 1.5625;
+			margin-bottom: .95em;
+			
+		&:not(:first-child) {
+			margin-top: 1.88em;
+		}
+			
+		}
+		
+	}
+	
+	.sidebar-wrap {
+		
+		h2 {
+			font-size: 1.5rem;
+			line-height: 1.333;
+			
+		&:not(:first-child) {
+			margin-top: 1.3em;
+		}
+			
+		}
+		
+	}
+	
+}

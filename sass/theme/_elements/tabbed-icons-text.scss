@@ -1,0 +1,24 @@
+.tabbed-icons-text {
+	padding-top: 0;	
+	
+	.tab-card {
+		margin: 1.1rem 0;
+		
+		.left {
+			padding-right: 0;
+		}
+		
+		.right {
+			p {
+				margin-top: -.4rem;
+				color: $primary;
+				font-size: 1.25rem;
+				line-height: 1.4;
+				letter-spacing: -.28px;
+				font-weight: bold;
+			}
+		}
+		
+	}
+	
+}

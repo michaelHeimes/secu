@@ -43,8 +43,8 @@ get_header();
 						<nav aria-label="breadcrumb">
 							<ol class="breadcrumb">
 								<li class="breadcrumb-item"><a href="#">Personal</a></li>
-								<li class="breadcrumb-item"><a href="#">Savings</a></li>
-								<li class="breadcrumb-item active" aria-current="page">Share Savings</li>
+								<li class="breadcrumb-item"><a href="#">Checking</a></li>
+								<li class="breadcrumb-item active" aria-current="page">SECO Total™ Checking & Rewards</li>
 							</ol>
 						</nav>
 					</div>
@@ -61,15 +61,14 @@ get_header();
 									<h2 class="h1 primary-color">One Account. <br>All the Rewards.</h2>
 									<p>We're making checking simple by converting all checking accounts held by our members into one program, the new SECU Total™ Checking & Rewards. It's an all-in-one checking account with:</p>
 									
-									<div class="check-list">										
-										<ul>
-											<li>Set-up Notifications and Reminders for all your accounts</li>
-											<li>Schedule recurring payments</li>
-											<li>Easily make mobile deposits</li>
-											<li>And much more...</li>
-										</ul>
-									</div>
-																			
+									<ul>
+										<li>No monthly maintenance fees</li>
+										<li>One order of free checks per year</li>
+										<li>Easy virtual banking</li>
+										<li>50,000+ Free ATMs nationwide</li>
+										<li>And all the rewards</li>
+									</ul>
+																		
 								</div>
 								
 							</div>

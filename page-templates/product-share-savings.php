@@ -74,16 +74,14 @@ get_header();
 									<h2 class="display">Easily Grow Your Savings!</h2>
 									<p>A feature-rich savings account is a great way to start enjoying the benefits of SECU membership!</p>
 									
-									<div class="check-list">										
-										<ul>
-											<li>Establishes your SECU membership</li>
-											<li>Pays interest above the Maryland Average*</li>
-											<li>Great account to build savings: Set up automatic transfers to quickly and easily grow your savings over time.</li>
-											<li>Withdraw or transfer funds to/from other SECU accounts at any time without penalty**</li>
-											<li>Hold multiple Savings Accounts—open a different account for each of your savings goals. As many as you want.</li>
-											<li>Custodial accounts available at a SECU branch.</li>
-										</ul>
-									</div>
+									<ul>
+										<li>Establishes your SECU membership</li>
+										<li>Pays interest above the Maryland Average*</li>
+										<li>Great account to build savings: Set up automatic transfers to quickly and easily grow your savings over time.</li>
+										<li>Withdraw or transfer funds to/from other SECU accounts at any time without penalty**</li>
+										<li>Hold multiple Savings Accounts—open a different account for each of your savings goals. As many as you want.</li>
+										<li>Custodial accounts available at a SECU branch.</li>
+									</ul>
 												
 									<p>Open an account today and start building your savings for your next adventure.</p>
 									<p>It only takes 10 minutes.</p>

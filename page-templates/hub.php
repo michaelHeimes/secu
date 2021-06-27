@@ -119,14 +119,12 @@ get_header();
 									<h2>Bank on the Go!</h2>
 									<p>We love seeing you at your local SECU Financial Center, but did you know many of your basic services can be done safely from your home?</p>
 									
-									<div class="check-list">										
-										<ul>
-											<li>Set-up Notifications and Reminders for all your accounts</li>
-											<li>Schedule recurring payments</li>
-											<li>Easily make mobile deposits</li>
-											<li>And much more...</li>
-										</ul>
-									</div>
+									<ul>
+										<li>Set-up Notifications and Reminders for all your accounts</li>
+										<li>Schedule recurring payments</li>
+										<li>Easily make mobile deposits</li>
+										<li>And much more...</li>
+									</ul>
 									
 									<div class="btn-wrap">
 										<a class="btn solid-blue" href="#">Visit The Center</a>
@@ -150,15 +148,13 @@ get_header();
 									<h2>Send money with Zelle®</h2>
 									<p>The world moves fast, and so do you. To go further together, SECU is pleased to introduce a new user-friendly online and mobile banking experience built around your needs.</p>
 									
-									<div class="check-list">										
-										<ul>
-											<li>Cash and Check Deposits</li>
-											<li>Withdrawals</li>
-											<li>Account Transfers</li>
-											<li>Payments for SECU Loans</li>
-											<li>And more</li>											
-										</ul>
-									</div>
+									<ul>
+										<li>Cash and Check Deposits</li>
+										<li>Withdrawals</li>
+										<li>Account Transfers</li>
+										<li>Payments for SECU Loans</li>
+										<li>And more</li>											
+									</ul>
 										
 									<div class="btn-wrap">
 										<a class="btn solid-blue" href="#">Visit The Center</a>

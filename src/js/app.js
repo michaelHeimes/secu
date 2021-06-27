@@ -1,7 +1,7 @@
 jQuery( document ).ready(function($) {
 	var _app = window._app || {};
 	
-	
+
 // 	Mobile menu toggling
 	_app.mobile_menu = function() {
 
@@ -53,11 +53,35 @@ jQuery( document ).ready(function($) {
 	}
 	
 	
+// 	Rates Tab cotnent row right: equal widths
+	_app.rates_row_right_widths = function() {
+		
+		if ( $('.tab-content.lev-2 .right .inner').length ) {
+			$('.tab-content.lev-2 .tab-pane').each(function(i) {
+
+				$(window).on("load resize", function() {
+					
+					var $rightWidths = $('.right .inner').map(function() {
+						return $(this).width();
+					}).get();
+
+					var maxHeight = Math.max.apply(null, $rightWidths);
+					
+					$('.right .inner').width(maxHeight);
+					
+				});
+			
+			});
+		}	
+		
+	}
+	
 	_app.init = function() {
 		_app.mobile_menu();	
 		_app.dropdown_hover();
 		_app.mega_menu();
-		_app.sup_tags();	
+		_app.sup_tags();
+		_app.rates_row_right_widths();	
 	}
 	
 	// initialize functions on load

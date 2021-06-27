@@ -7113,6 +7113,21 @@ jQuery(document).ready(function ($) {
     }).replaceWith(function () {
       return this.nodeValue.replace(/[®©]/g, '<sup>$&</sup>');
     });
+  }; // 	Rates Tab cotnent row right: equal widths
+
+
+  _app.rates_row_right_widths = function () {
+    if ($('.tab-content.lev-2 .right .inner').length) {
+      $('.tab-content.lev-2 .tab-pane').each(function (i) {
+        $(window).on("load resize", function () {
+          var $rightWidths = $('.right .inner').map(function () {
+            return $(this).width();
+          }).get();
+          var maxHeight = Math.max.apply(null, $rightWidths);
+          $('.right .inner').width(maxHeight);
+        });
+      });
+    }
   };
 
   _app.init = function () {
@@ -7123,6 +7138,8 @@ jQuery(document).ready(function ($) {
     _app.mega_menu();
 
     _app.sup_tags();
+
+    _app.rates_row_right_widths();
   }; // initialize functions on load
 
 
